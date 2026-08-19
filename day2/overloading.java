@@ -1,0 +1,19 @@
+package day_2_polymorphism;
+
+// poly morphism
+//method overloading
+// method overriding
+
+public class overloading {
+	void m1() {
+		System.out.println("sdfa");
+	}
+	void m1(int a) {
+		System.out.println("dfasdfasdfasfas");
+	}
+	public static void main(String[] args) {
+		overloading test = new overloading();// object
+		test.m1();
+		test.m1(3);
+	}
+}
